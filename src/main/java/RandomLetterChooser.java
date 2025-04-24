@@ -5,9 +5,9 @@ public class RandomLetterChooser extends RandomStringChooser
 	{ 
 		String[] ar = getSingleLetters(str);
 		for(int i = 0; i < ar.length; i++){
-			addTo(ar[i]);
+			super.addTo(ar[i]);
 		}
-		getNext();
+		super.getNext();
 	}
 	
 	
