@@ -3,7 +3,7 @@ public class RandomLetterChooser extends RandomStringChooser
 	
 	public RandomLetterChooser(String str)
 	{ 
-		private String[] ar = getSingleLetters(str);
+		 String[] ar = getSingleLetters(str);
 		for(int i = 0; i < ar.length; i++){
 			addTo(ar[i]);
 		}
