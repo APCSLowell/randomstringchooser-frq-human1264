@@ -7,7 +7,8 @@ public class RandomStringChooser
   }
   
   public String getNext(){
-    private int th = (int)(Math.random()*a.size()); private String temp;
+     int th = (int)(Math.random()*a.size()); 
+     String temp;
     if(a.size() > 0){
     return(a.remove(th););
   } else{return("none");}
