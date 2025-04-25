@@ -1,8 +1,8 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	private String[] ar = getSingleLetters(str);
+	
 	public RandomLetterChooser(String str){
-		super(ar);
+		super(getSingleLetters(str));
 		
 		
 	}
