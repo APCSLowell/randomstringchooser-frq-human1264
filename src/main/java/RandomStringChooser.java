@@ -13,7 +13,7 @@ public class RandomStringChooser
       temp = a.get(th);
       a.remove(th);
       return(temp);
-  } else{return("none");}
+  } else{return("NONE");}
 }
   public void addTo(String c){a.add(c);}
 }
