@@ -10,7 +10,9 @@ public class RandomStringChooser
      int th = (int)(Math.random()*a.size()); 
      String temp;
     if(a.size() > 0){
-    return(a.remove(th));
+      String temp = a.get(th);
+      a.remove(th);
+      return(temp);
   } else{return("none");}
 }
   public void addTo(String c){a.add(c);}
